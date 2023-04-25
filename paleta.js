@@ -9,7 +9,7 @@ class Paleta{
     darColor(){
         let x = int( random( this.imagen.width ));
         let y = int( random( this.imagen.height ));
-        let elColor = this.imagen.get( x , y );
+        let elColor = this.imagen.get( x+50 , y-50 );
         return elColor;
     }
 
